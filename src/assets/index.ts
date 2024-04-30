@@ -8,6 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import django from "./tech/django.png";
+import tensoflow from "./tech/tensorflow.png";
+
+
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";

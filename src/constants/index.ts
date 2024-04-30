@@ -32,6 +32,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  django,
+  tensorflow,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,24 +53,30 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "AL/ML Engineer",
     icon: creator,
   },
+  {
+    title: "BlockChain Developer",
+    icon: backend,
+  },
+  
 ];
 
 const technologies: TTechnology[] = [
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  
   {
     name: "HTML 5",
     icon: html,
@@ -89,6 +97,7 @@ const technologies: TTechnology[] = [
     name: "React JS",
     icon: reactjs,
   },
+  
   {
     name: "Redux Toolkit",
     icon: redux,
