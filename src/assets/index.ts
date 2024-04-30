@@ -9,7 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import django from "./tech/django.png";
-import tensoflow from "./tech/tensorflow.png";
+import tensorflow from "./tech/tensorflow.png";
 
 
 import docker from "./tech/docker.png";
@@ -45,6 +45,8 @@ export {
   close,
   css,
   docker,
+  django,
+  tensorflow
   figma,
   git,
   html,
