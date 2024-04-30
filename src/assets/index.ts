@@ -34,6 +34,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import car from "./car.png";
+import stock from "./stock.png";
+import carpet from "./carpet.png";
+import faculty from "./faculty.png";
+
+
 export {
   logo,
   backend,
@@ -65,4 +71,10 @@ export {
   carrent,
   jobit,
   tripguide,
+
+  carpet,
+  car,
+  stock,
+  faculty,
+
 };

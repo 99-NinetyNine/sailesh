@@ -28,9 +28,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  carpet,
+  car,
+  stock,
+  faculty,
   threejs,
   django,
   tensorflow,
@@ -190,78 +191,107 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Sailesh proved me wrong.",
+    name: "Suvaya Shrestha",
+    designation: "Project Manager",
+    company: "BinaryBurstSolutions Pvt. Ltd., Nepal",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Carpet Design Using GAN",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to create carpet design and system assits in enhancing it by using DCGAN|| Pix2Pix || Neural style transfer networks.",
+    tags: [
+      {
+        name: "GAN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DCGAN",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pix2pix",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "neuralStyleTransfer",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: carpet,
+    sourceCodeLink: "https://github.com/99-NinetyNine/GAN_rug_design/",
+  },
+  {
+    name: "eAuction System",
+    description:
+      "Web application that enables users to view vehicles on auction, perform bidding, and winner is awarded after the auction is disclosed by a group of superadmins(3 memeber for our system)",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "celery",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: car,
+    sourceCodeLink: "https://github.com/99-NinetyNine/eAuction_Nepal/",
   },
+  
   {
-    name: "Job IT",
+    name: "Study of Stock Price Prediction using LSTM vs ARIMA using Sentiment Analysis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive stock price prediction model that utilizes fundamental indicators(EPS, ROI etc.), technical indicators(RSI, MA, MACD etc.), macroeconomic factor(Inflation rate etc.) and news sentiment(VADER analysis) to model and predict the stock prices of companies(NABIL bank in our case). We compared conventional and neural neutwork models i.e. ARIMA and LSTM.",
     tags: [
       {
-        name: "react",
+        name: "NLP",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "VADER",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "RNN",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "LSTM",
         color: "pink-text-gradient",
       },
+
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: stock,
+    sourceCodeLink: "https://github.com/99-NinetyNine/NepalStockPricePrediction",
   },
+
   {
-    name: "Trip Guide",
+    name: "Faculty Publication Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Faculty Publication Management System (FPMS) serves as a centralized platform for managing faculty publications. Default users have access to viewing and searching papers, as well as exporting them in MLA, APA, IEEE, or BibTeX formats. They can also identify paper authors. Faculty members, on the other hand, possess additional privileges such as adding, editing, and deleting papers, as well as adding peers. Establishing centralized repositories for faculty publications facilitates easy storage, management, and retrieval of papers. Moreover, it simplifies the process of citing these papers.",
     tags: [
       {
-        name: "nextjs",
+        name: "Django Rest-Framework",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: faculty,
+    sourceCodeLink: "https://github.com/99-NinetyNine/FacultyGAte",
   },
 ];
 
