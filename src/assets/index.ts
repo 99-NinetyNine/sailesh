@@ -52,7 +52,7 @@ export {
   css,
   docker,
   django,
-  tensorflow
+  tensorflow,
   figma,
   git,
   html,
