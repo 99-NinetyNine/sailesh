@@ -8,7 +8,6 @@ import type {
 } from "../types";
 
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -24,10 +23,8 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carpet,
   car,
   stock,
